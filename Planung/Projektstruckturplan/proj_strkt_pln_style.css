@@ -1,0 +1,104 @@
+#arbeitspacket {
+    background-color: rgb(52,101,164); /* R:52 G:101 B:164*/ /*C:86 M:62 Y:8 K:1*/
+    text-align: center;
+    color: white;
+    width: 260px;
+    height: 60px;
+    border-style: solid;
+    border-radius: 3;
+    border-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#meilenstein {
+    background-color: rgb(53,82,105); /* R:52 G:101 B:164*/ /*C:86 M:62 Y:8 K:1*/
+    text-align: center;
+    color: white;
+    width: 260px;
+    height: 60px;
+    border-style: solid;
+    border-radius: 3;
+    border-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+#hardware {
+    background-color: rgb(112,173,71); /* R:52 G:101 B:164*/ /*C:86 M:62 Y:8 K:1*/
+    text-align: center;
+    color: white;
+    width: 260px;
+    height: 60px;
+    border-style: solid;
+    border-radius: 3;
+    border-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+#hardwareStone {
+    background-color: rgb(84,128,54); /* R:52 G:101 B:164*/ /*C:86 M:62 Y:8 K:1*/
+    text-align: center;
+    color: white;
+    width: 260px;
+    height: 60px;
+    border-style: solid;
+    border-radius: 3;
+    border-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#konfigurator {
+    background-color: rgb(138,66,161); /* R:52 G:101 B:164*/ /*C:86 M:62 Y:8 K:1*/
+    text-align: center;
+    color: white;
+    width: 260px;
+    height: 60px;
+    border-style: solid;
+    border-radius: 3;
+    border-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#konfiguratorStone {
+    background-color: rgb(103,49,120); /* R:52 G:101 B:164*/ /*C:86 M:62 Y:8 K:1*/
+    text-align: center;
+    color: white;
+    width: 260px;
+    height: 60px;
+    border-style: solid;
+    border-radius: 3;
+    border-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ghost {
+    background-color: white /* R:52 G:101 B:164*/ /*C:86 M:62 Y:8 K:1*/
+    text-align: center;
+    color: white;
+    width: 260px;
+    height: 60px;
+    border-style: solid;
+    border-radius: 3;
+    border-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #topic {
+    background-color: rgb(56,60,60); /* R:52 G:101 B:164*/ /*C:86 M:62 Y:8 K:1*/
+    text-align: center;
+    color: white;
+    width: 600px;
+    height: 120px;
+    border-style: solid;
+    border-radius: 3;
+    border-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
