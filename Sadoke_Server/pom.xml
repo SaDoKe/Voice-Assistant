@@ -120,12 +120,12 @@
 		<dependency>
 			<groupId>org.apache.tika</groupId>
 			<artifactId>tika-core</artifactId>
-			<version>0.10</version>
+			<version>1.19.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.tika</groupId>
 			<artifactId>tika-parsers</artifactId>
-			<version>0.10</version>
+			<version>1.19.1</version>
 		</dependency>
 	</dependencies>
 	<artifactId>Sadoke_server</artifactId>
