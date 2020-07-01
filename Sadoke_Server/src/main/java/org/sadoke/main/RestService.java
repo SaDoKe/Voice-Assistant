@@ -47,6 +47,7 @@ public class RestService {
 	@ResponseBody
 	public GetTokenResponse getToken() {
 		final GetTokenResponse response = new GetTokenResponse();
+		log.info("GET Token");
 		log.info("I log in {}", getPropertyPath());
 		final Properties props = new Properties();
 		try {
@@ -61,6 +62,14 @@ public class RestService {
 			log.error("GetToken cant handle the data", ex);
 		}
 		return response;
+	}
+
+	@CrossOrigin(origins = "*")
+	@GetMapping(value = "/test")
+	@ResponseBody
+	public ResponseEntity<Boolean> getTest() {
+		log.info("Called REST Service");
+		return new ResponseEntity<>(true, HttpStatus.OK);
 	}
 
 	private String getPropertyPath() {
