@@ -65,9 +65,9 @@ public class RestService {
 	}
 
 	@CrossOrigin(origins = "*")
-	@GetMapping(value = "/test")
+	@GetMapping(value = "/handshake")
 	@ResponseBody
-	public ResponseEntity<Boolean> getTest() {
+	public ResponseEntity<Boolean> getResponse() {
 		log.info("Called REST Service");
 		return new ResponseEntity<>(true, HttpStatus.OK);
 	}

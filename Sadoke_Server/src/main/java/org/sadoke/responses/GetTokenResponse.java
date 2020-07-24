@@ -14,13 +14,13 @@ import com.fasterxml.jackson.databind.annotation.JsonNaming;
 @JsonNaming
 public class GetTokenResponse {
 	
-	@XmlElement(name="tokens")
+	@XmlElement(name = "tokens")
 	private List<Token> tokens ;
 	
 	
 	public void addToken( String name, String token) {
-		if(tokens==null)
-			tokens= new ArrayList<>();
+		if(tokens == null)
+			tokens = new ArrayList<>();
 		tokens.add(new Token(name,token));
 	}
 	
@@ -37,12 +37,12 @@ public class GetTokenResponse {
 
 	class Token{
 		public Token(String name, String token) {
-			this.name=name;
-			this.token=token;
+			this.name = name;
+			this.token = token;
 		}
-		@XmlElement(name="name")
+		@XmlElement(name = "name")
 		private String name;
-		@XmlElement(name="token")
+		@XmlElement(name = "token")
 		private String token;
 		
 		
